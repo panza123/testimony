@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    background-color: aqua;
+}
+
+main {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 4fr 1fr;
+}
+
+#part1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#dainelwalters {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 1fr;
+}
+
+#jeanabrams {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 2fr;
+}
+#daniel{
+    background-color: rgba(128, 0, 128, 0.882);
+    color: aliceblue;
+    padding: 9px;
+    border-radius: 9px;
+    position: relative;
+    z-index: 50;
+}
+img{
+    
+    border: 1px solid;
+    border-color:white ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    border: 2px solid;
+}
+.br{
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+.p2{
+    color: grey;
+}
+#pic{
+    position: absolute;
+    right: 30px;
+    top:0;
+    width: 50px;
+    height: 70px;
+    border-radius: 0;
+    border-color:  rgba(128, 0, 128, 0.882);
+    z-index: 10;
+}
+.picture{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+#op{
+    padding: 10px;
+    font-size: larger;
+}
+#po{
+  font-size: 13px;
+  color: grey;
+}
+#walters{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding:9px ;
+    border-radius: 9px;
+}
+#pp{
+    padding: 10px;
+    font-size: larger;
+}
+#p2p{
+    font-size: 13px;
+    padding: 15px;
+}
+#jeanette{
+    background-color: white;
+    border-color: white;
+    border-radius: 9px;
+padding: 10px;
+
+}
+#poe{
+    padding: 10px;
+    font-size: larger;
+}
+#ope{
+    padding: 10px;
+    font-size: 13px;
+    color: grey;
+}
+#abrams{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 9px;
+    padding: 10px;
+}
+#pdp{
+    padding: 10px;
+    font-size: larger;
+}
+#apc{
+    font-size:13px ;
+    color: grey;
+    padding: 10px;
+}
+#kira{
+    background-color: white;
+    padding: 10px;
+    padding: 9px;
+    color: black;
+    border-radius:9px ;
+}
+#labour{
+    font-size: larger;
+    padding: 10px;
+}
+#party{
+    font-size: 13px;
+    color: grey;
+    padding: 10px;
+}
+@media(max-width:700px){
+    body {
+        height: 100%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    #dainelwalters, #jeanabrams {
+        grid-template-columns: 1fr;
+    }
+
+}
